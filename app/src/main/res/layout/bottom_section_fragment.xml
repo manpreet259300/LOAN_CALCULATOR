@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/fragment2">
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/gridLayout2"
+        android:layout_marginTop="34dp"
+        android:layout_below="@+id/textView14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:layout_width="138dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/MonthlyPaymentAmount"
+            android:id="@+id/textView8"
+            android:layout_row="0"
+            android:layout_column="0"
+            android:textColor="#47e2ff" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/MonthlyPaymentAmount"
+            android:layout_row="0"
+            android:layout_column="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$"
+            android:id="@+id/textView2"
+            android:layout_row="0"
+            android:layout_column="5" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/TotalInterestPaid"
+            android:id="@+id/textView11"
+            android:layout_row="1"
+            android:layout_column="0"
+            android:textColor="#47e2ff" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/TotalInterestPaid"
+            android:layout_row="1"
+            android:layout_column="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$"
+            android:id="@+id/textView5"
+            android:layout_row="1"
+            android:layout_column="5" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/TotalPropertyTaxPaid"
+            android:id="@+id/textView12"
+            android:layout_row="2"
+            android:layout_column="0"
+            android:textColor="#47e2ff" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/TotalPropertyTaxPaid"
+            android:layout_row="2"
+            android:layout_column="4" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="$"
+            android:id="@+id/textView7"
+            android:layout_row="2"
+            android:layout_column="5" />
+
+        <TextView
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="@string/PayOffDate"
+            android:id="@+id/textView13"
+            android:layout_below="@+id/gridLayout2"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_row="3"
+            android:layout_column="0"
+            android:textColor="#47e2ff" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:id="@+id/PayOffDate"
+            android:layout_row="3"
+            android:layout_column="4" />
+
+    </GridLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Payment"
+        android:id="@+id/textView14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="41dp"
+        android:textIsSelectable="false"
+        android:textSize="48sp" />
+
+</RelativeLayout>
